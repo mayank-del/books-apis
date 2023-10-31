@@ -18,12 +18,12 @@ In the project base directory start, you can run:
 
 #### `use any kind of API development tools like postman or thunder client to send a request to my server`
 
-#### `Create record API->   http://35.154.131.120:5000/api/v1/add/book simply go to body of that tool add records as I have done in my video`
+Create record API->   [http://35.154.131.120:5000/api/v1/add/book](http://35.154.131.120:5000/api/v1/add/book) simply go to body of that tool add records as I have done in my video
 
-#### `Get One record api-> http://35.154.131.120:5000/api/v1/get/book/${id}`
+Get One record api-> [http://35.154.131.120:5000/api/v1/get/book/6540bad74406184ed7d29771](http://35.154.131.120:5000/api/v1/get/book/6540bad74406184ed7d29771)
 
-#### `Get All record API -> http://35.154.131.120:5000/api/v1/get/all/books`
+Get All record API -> [http://35.154.131.120:5000/api/v1/get/all/books](http://35.154.131.120:5000/api/v1/get/all/books)
 
-#### `Updating Record API -> http://35.154.131.120:5000/api/v1/update/book/6540bad74406184ed7d29771`
+Updating Record API -> [http://35.154.131.120:5000/api/v1/update/book/6540bad74406184ed7d29771](http://35.154.131.120:5000/api/v1/update/book/6540bad74406184ed7d29771)
 
-#### `Deleting Record API -> http://35.154.131.120:5000/api/v1/delete/book/6540bad74406184ed7d29771`
+Deleting Record API -> [http://35.154.131.120:5000/api/v1/delete/book/6540bad74406184ed7d29771](http://35.154.131.120:5000/api/v1/delete/book/6540bad74406184ed7d29771)
