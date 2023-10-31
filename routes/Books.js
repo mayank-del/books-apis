@@ -49,7 +49,7 @@ routes.patch("/update/book/:id",async(req,res)=>{
     try {
         const {id}=req.params
         const updateReq=req.body
-        const found=Books.findOne({_id:id})
+        const found=await Books.findOne({_id:id})
         if(!found){
             return res.status(404).send("No record is present with this id")
         }
@@ -67,7 +67,7 @@ routes.patch("/update/book/:id",async(req,res)=>{
 routes.delete("/delete/book/:id",async(req,res)=>{
     try {
         const {id}=req.params
-        const found=Books.findOne({_id:id})
+        const found=await Books.findOne({_id:id})
         //console.log(found);
         if(!found){
             return res.status(404).send("No record is present with this id")
